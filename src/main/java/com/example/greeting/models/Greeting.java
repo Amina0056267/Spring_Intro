@@ -1,13 +1,13 @@
-package com.example.greeting.models;
+package com.example.task_01.models;
 
 public class Greeting {
 
     private String name;
-    private String TimeOfDay;
+    private String timeOfDay;
 
-    public Greeting(String name){
+    public Greeting(String name, String timeOfDay){
         this.name = name;
-        this.TimeOfDay = TimeOfDay;
+        this.timeOfDay = timeOfDay;
 
     }
 
@@ -23,10 +23,10 @@ public class Greeting {
     }
 
     public String getTimeOfDay() {
-        return TimeOfDay;
+        return timeOfDay;
     }
 
     public void setTimeOfDay(String timeOfDay) {
-        TimeOfDay = timeOfDay;
+        timeOfDay = timeOfDay;
     }
 }

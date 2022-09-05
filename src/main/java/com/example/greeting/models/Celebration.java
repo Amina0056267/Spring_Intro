@@ -1,16 +1,13 @@
-package com.example.greeting.models;
+package com.example.task_01.models;
 
-public class Reply {
-
+public class Celebration {
     private String message;
 
-
-    public Reply(String message){
+    public Celebration(String message) {
         this.message = message;
-
     }
 
-    public Reply() {
+    public Celebration() {
     }
 
     public String getMessage() {
